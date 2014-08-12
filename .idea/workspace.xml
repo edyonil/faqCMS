@@ -23,19 +23,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="27" selection-start="958" selection-end="966" vertical-scroll-proportion="-6.5945945" vertical-offset="4788" max-vertical-offset="5904">
+            <state line="19" column="20" selection-start="287" selection-end="287" vertical-scroll-proportion="0.388102" vertical-offset="68" max-vertical-offset="774">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="5" selection-start="1136" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="2858" max-vertical-offset="3564">
+            <state line="13" column="36" selection-start="234" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/about.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rotas_api.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/config/rotas_api.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="14" selection-start="240" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="43" selection-start="3032" selection-end="3032" vertical-scroll-proportion="-11.333333" vertical-offset="918" max-vertical-offset="2700">
               <folding />
             </state>
           </provider>
@@ -54,10 +81,19 @@
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/app/js/demo.js" />
         <option value="$PROJECT_DIR$/.tmp/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/scripts/factories/questions.js" />
+        <option value="$PROJECT_DIR$/app/styles/main.css" />
+        <option value="$PROJECT_DIR$/app/scripts/config/rotas_api.js" />
+        <option value="$PROJECT_DIR$/backend/laravel/app/config/app.php" />
+        <option value="$PROJECT_DIR$/backend/laravel/app/routes.php" />
+        <option value="$PROJECT_DIR$/backend/laravel/app/controllers/PerguntasController.php" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/about.js" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
       </list>
     </option>
   </component>
@@ -93,6 +129,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -139,7 +176,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -153,17 +190,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".tmp" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,6 +212,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/scripts/factories" />
+      <recent name="$PROJECT_DIR$/app/scripts/factories/comments" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
@@ -230,7 +268,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25714287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26357144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -264,6 +302,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="149" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="2" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
           <folding />
         </state>
@@ -274,30 +326,136 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="22" selection-end="22" vertical-scroll-proportion="0.02549575" vertical-offset="0" max-vertical-offset="706">
-          <folding />
-        </state>
+        <state line="1" column="20" selection-start="22" selection-end="22" vertical-scroll-proportion="0.02549575" vertical-offset="0" max-vertical-offset="706" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/semantic/build/packaged/css/semantic.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="230" selection-end="230" vertical-scroll-proportion="0.33766234" vertical-offset="0" max-vertical-offset="693">
+        <state line="13" column="21" selection-start="230" selection-end="230" vertical-scroll-proportion="0.33766234" vertical-offset="0" max-vertical-offset="693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../angular/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="28" selection-start="975" selection-end="996" vertical-scroll-proportion="0.3569405" vertical-offset="414" max-vertical-offset="7506" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/semantic/build/examples/homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="177" column="28" selection-start="0" selection-end="3190" vertical-scroll-proportion="0.46458924" vertical-offset="2858" max-vertical-offset="3564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/semantic/build/examples/homepage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="1020" vertical-scroll-proportion="-0.5807365" vertical-offset="410" max-vertical-offset="1116" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/semantic/build/examples/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="751" selection-end="787" vertical-scroll-proportion="0.4864865" vertical-offset="0" max-vertical-offset="5400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/semantic/build/packaged/css/semantic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2706" column="13" selection-start="68618" selection-end="68622" vertical-scroll-proportion="0.33233532" vertical-offset="48486" max-vertical-offset="276660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.3210604" vertical-offset="2255" max-vertical-offset="2934">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/votes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="8" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.407932" vertical-offset="540" max-vertical-offset="7470">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/versions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/steps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/comments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/comments/comment_versions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/comments/comment_questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/checks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/checks/check_versions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/checks/check_questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/votes/vote_questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/votes/vote_comment_versions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/votes/vote_comment_questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/tags.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/hit_counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/author.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <folding />
         </state>
       </provider>
@@ -309,48 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../angular/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="28" selection-start="975" selection-end="996" vertical-scroll-proportion="0.3569405" vertical-offset="414" max-vertical-offset="7506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/semantic/build/examples/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="28" selection-start="0" selection-end="3190" vertical-scroll-proportion="0.46458924" vertical-offset="2858" max-vertical-offset="3564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="1" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.9490085" vertical-offset="338" max-vertical-offset="1116">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/semantic/build/examples/homepage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1020" vertical-scroll-proportion="-0.5807365" vertical-offset="410" max-vertical-offset="1116">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/semantic/build/examples/homepage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="751" selection-end="787" vertical-scroll-proportion="0.4864865" vertical-offset="0" max-vertical-offset="5400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/semantic/build/packaged/css/semantic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2706" column="13" selection-start="68618" selection-end="68622" vertical-scroll-proportion="0.33233532" vertical-offset="48486" max-vertical-offset="276660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.tmp/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="23" selection-start="0" selection-end="3177" vertical-scroll-proportion="0.45892352" vertical-offset="954" max-vertical-offset="3474">
@@ -358,16 +474,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/factories/questions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="2" selection-start="179" selection-end="179" vertical-scroll-proportion="0.1529745" vertical-offset="0" max-vertical-offset="706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="1" selection-start="1404" selection-end="1404" vertical-scroll-proportion="0.84415585" vertical-offset="423" max-vertical-offset="1116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="7" selection-start="3917" selection-end="3917" vertical-scroll-proportion="0.2549575" vertical-offset="2718" max-vertical-offset="7470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="5" selection-start="1136" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="2858" max-vertical-offset="3564">
+        <state line="187" column="5" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.7266289" vertical-offset="2853" max-vertical-offset="3564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/laravel/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/laravel/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="587" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/laravel/app/controllers/PerguntasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="41" selection-start="636" selection-end="636" vertical-scroll-proportion="0.5036819" vertical-offset="0" max-vertical-offset="679">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/laravel/app/config/local/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="437" selection-end="441" vertical-scroll-proportion="0.3976436" vertical-offset="0" max-vertical-offset="679">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/laravel/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="441" selection-end="441" vertical-scroll-proportion="0.3976436" vertical-offset="0" max-vertical-offset="3600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/laravel/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="54" selection-start="448" selection-end="448" vertical-scroll-proportion="0.34462446" vertical-offset="0" max-vertical-offset="679">
+          <folding>
+            <element signature="e#7#392#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="67" selection-start="148" selection-end="148" vertical-scroll-proportion="0.07952872" vertical-offset="0" max-vertical-offset="679">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/config/rotas_api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="14" selection-start="240" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/about.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="27" selection-start="958" selection-end="966" vertical-scroll-proportion="-6.5945945" vertical-offset="4788" max-vertical-offset="5904">
+        <state line="68" column="43" selection-start="3032" selection-end="3032" vertical-scroll-proportion="-11.333333" vertical-offset="918" max-vertical-offset="2700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="234" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="287" selection-end="287" vertical-scroll-proportion="0.388102" vertical-offset="68" max-vertical-offset="774">
           <folding />
         </state>
       </provider>

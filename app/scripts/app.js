@@ -17,7 +17,8 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider,uriConfig) {
+        //console.log(uriConfig.defaultUrl);
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -30,4 +31,7 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+  })
+  .run(function(){
+
   });
